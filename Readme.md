@@ -3,7 +3,7 @@
 Hinterland Fruits is the first in the Hinterland series of mods that aims to add a variety of new plants to the world. All are edible, though some will need to be processed in some way to avoid poisoning you. The eventual goal is full Biomes and Expanded Foods compatibility.
 
 Also includes quality of life changes such as:
-- Pruning shrubs with a knife as well as shears
+- Pruning shrubs with a knife as well as shears (crap I need Herbarium for this)
 
 ## Crops
 - Strawberry (Vanilla in 1.22) ❌
