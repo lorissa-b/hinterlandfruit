@@ -1,0 +1,47 @@
+[
+    {
+        "file": "expandedfoods:itemtypes/food/mixing/pemmican.json",
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionPropsByType/*-raw",
+        "value": {
+            "hinterlandfruit:fruit-goldencurrant": {
+                "saturation": 60,
+                "foodcategory": "Fruit"
+            },
+            "hinterlandfruit:fruit-saskatoonberry": {
+                "saturation": 60,
+                "foodcategory": "Fruit"
+            },
+            "hinterlandfruit:fruit-bearberry": {
+                "saturation": 60,
+                "foodcategory": "Fruit"
+            },
+            "expandedfoods:dryfruit-goldencurrant": {
+                "saturation": 55,
+                "foodcategory": "Fruit"
+            },
+            "expandedfoods:dryfruit-saskatoonberry": {
+                "saturation": 55,
+                "foodcategory": "Fruit"
+            },
+            "expandedfoods:dryfruit-bearberry": {
+                "saturation": 55,
+                "foodcategory": "Fruit"
+            },
+            "expandedfoods:dehydratedfruit-goldencurrant": {
+                "saturation": 55,
+                "foodcategory": "Fruit"
+            },
+            "expandedfoods:dehydratedfruit-saskatoonberry": {
+                "saturation": 55,
+                "foodcategory": "Fruit"
+            },
+            "expandedfoods:dehydratedfruit-bearberry": {
+                "saturation": 55,
+                "foodcategory": "Fruit"
+            }
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    }
+]

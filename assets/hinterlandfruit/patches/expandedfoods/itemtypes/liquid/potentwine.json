@@ -1,0 +1,69 @@
+[
+    {
+        "file": "expandedfoods:itemtypes/liquid/potentwine.json",
+        "op": "addmerge",
+        "path": "/variantgroups/-",
+        "value": {
+            "code": "fruit",
+            "loadFromProperties": "hinterlandfruit:block/fruit"
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/potentwine.json",
+        "op": "move",
+        "frompath": "/attributes/waterTightContainerProps/texturebytype/*",
+        "path": "/temp",
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/potentwine.json",
+        "op": "addmerge",
+        "path": "/attributes/waterTightContainerProps/texturebytype",
+        "value": {
+            "*-goldencurrant": { "base": "block/food/pie/fill-goldencurrant", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+            "*-saskatoonberry": { "base": "block/food/pie/fill-saskatoonberry", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+            "*-bearberry": { "base": "block/food/pie/fill-bearberry", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] }
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/potentwine.json",
+        "op": "move",
+        "path": "/attributes/waterTightContainerProps/texturebytype/*",
+        "frompath": "/temp",
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/potentwine.json",
+        "op": "move",
+        "frompath": "/texturebytype/*",
+        "path": "/temp",
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/potentwine.json",
+        "op": "addmerge",
+        "path": "/texturebytype",
+        "value": {
+            "*-goldencurrant": { "base": "block/food/pie/fill-goldencurrant", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+            "*-saskatoonberry": { "base": "block/food/pie/fill-saskatoonberry", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+            "*-bearberry": { "base": "block/food/pie/fill-bearberry", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] }
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/potentwine.json",
+        "op": "move",
+        "path": "/texturebytype/*",
+        "frompath": "/temp",
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    }
+]

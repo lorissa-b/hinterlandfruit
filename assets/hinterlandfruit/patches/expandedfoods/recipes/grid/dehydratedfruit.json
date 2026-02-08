@@ -1,0 +1,19 @@
+[
+    {
+        "file": "expandedfoods:recipes/grid/dehydratedfruit.json",
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "F",
+            "ingredients": {
+                "F": { "type": "item", "code": "hinterlandfruit:pressedmash-*", "allowedVariants": [ "goldencurrant", "saskatoonberry", "bearberry" ], "name": "fruit" }
+            },
+            "width": 1,
+            "height": 1,
+            "shapeless": false,
+            "output": { "type": "item", "code": "expandedfoods:dehydratedfruit-{fruit}", "quantity": 1 }            
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    }
+]

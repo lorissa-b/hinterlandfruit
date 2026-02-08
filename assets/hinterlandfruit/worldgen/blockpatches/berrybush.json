@@ -1,0 +1,44 @@
+[
+	{
+		"blockCodes": ["bigberrybush-goldencurrant-empty", "bigberrybush-goldencurrant-flowering", "bigberrybush-goldencurrant-ripe"],
+		"minTemp": -2,
+		"maxTemp": 23,
+		"minRain": 0.3,
+		"maxRain": 0.7,
+        "minFertility": 0.25,
+		"maxFertility": 0.6,
+		"chance": 0.12,
+		"maxForest": 0.5,
+		"maxY": 0.62,
+		"quantity": { "avg": 2, "var": 4 },
+		"placement": "OnSurfacePlusUnderTrees"
+	},
+	{
+		"blockCodes": ["bigberrybush-saskatoonberry-empty", "bigberrybush-saskatoonberry-flowering", "bigberrybush-saskatoonberry-ripe"],
+		"minTemp": -2,
+		"maxTemp": 23,
+		"minRain": 0.3,
+		"maxRain": 0.7,
+        "minFertility": 0.25,
+		"maxFertility": 0.6,
+		"chance": 0.12,
+		"maxForest": 0.5,
+		"maxY": 0.62,
+		"quantity": { "avg": 2, "var": 4 },
+		"placement": "OnSurfacePlusUnderTrees"
+	},
+	{
+		"blockCodes": ["smallberrybush-bearberry-empty", "smallberrybush-bearberry-flowering", "smallberrybush-bearberry-ripe"],
+		"minTemp": -2,
+		"maxTemp": 23,
+		"minRain": 0.3,
+		"maxRain": 0.7,
+        "minFertility": 0.25,
+		"maxFertility": 0.6,
+		"chance": 0.12,
+		"maxForest": 0.5,
+		"maxY": 0.62,
+		"quantity": { "avg": 2, "var": 4 },
+		"placement": "OnSurfacePlusUnderTrees"
+	}
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "op": "addmerge",
+        "path": "/variantgroups/-",
+        "value": {
+            "code": "fruit",
+            "loadFromProperties": "hinterlandfruit:block/fruit"
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "op": "move",
+        "frompath": "/attributes/waterTightContainerProps/texturebytype/*",
+        "path": "/temp",
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "op": "addmerge",
+        "path": "/attributes/waterTightContainerProps/texturebytype",
+        "value": {
+            "*-goldencurrant": { "base": "block/food/pie/fill-goldencurrant", "alpha": 160, "overlays": ["game:item/liquid/syrup"] },
+            "*-saskatoonberry": { "base": "block/food/pie/fill-saskatoonberry", "alpha": 160, "overlays": ["game:item/liquid/syrup"] },
+            "*-bearberry": { "base": "block/food/pie/fill-bearberry", "alpha": 160, "overlays": ["game:item/liquid/syrup"] }
+        }
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "op": "move",
+        "path": "/attributes/waterTightContainerProps/texturebytype/*",
+        "frompath": "/temp",
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "op": "move",
+        "frompath": "/texturebytype/*",
+        "path": "/temp",
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "op": "addmerge",
+        "path": "/texturebytype",
+        "value": {
+            "*-goldencurrant": { "base": "block/food/pie/fill-goldencurrant", "alpha": 160, "overlays": ["game:item/liquid/syrup"] },
+            "*-saskatoonberry": { "base": "block/food/pie/fill-saskatoonberry", "alpha": 160, "overlays": ["game:item/liquid/syrup"] },
+            "*-bearberry": { "base": "block/food/pie/fill-bearberry", "alpha": 160, "overlays": ["game:item/liquid/syrup"] }
+        }
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "op": "move",
+        "path": "/texturebytype/*",
+        "frompath": "/temp",
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    }
+]

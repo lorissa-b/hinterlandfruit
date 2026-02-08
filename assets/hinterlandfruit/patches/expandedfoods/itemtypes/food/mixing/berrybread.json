@@ -1,0 +1,20 @@
+[
+    {
+        "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "goldencurrant": {
+                "base": "hinterlandfruit:item/food/grain/overlays/goldencurrant"
+            },
+            "saskatoonberry": {
+                "base": "hinterlandfruit:item/food/grain/overlays/saskatoonberry"
+            },
+            "bearberry": {
+                "base": "hinterlandfruit:item/food/grain/overlays/bearberry"
+            }
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    }
+]

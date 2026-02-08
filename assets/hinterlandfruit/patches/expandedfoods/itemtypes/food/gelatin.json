@@ -1,0 +1,66 @@
+[
+    {
+        "file": "expandedfoods:itemtypes/food/gelatin.json",
+        "op": "addeach",
+        "path": "/variantgroups/0/states/-",
+        "value": ["goldencurrant", "saskatoonberry", "bearberry"],
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/food/gelatin.json",
+        "op": "move",
+        "frompath": "/attributes/inPiePropertiesByType/*",
+        "path": "/temp",
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/food/gelatin.json",
+        "op": "addmerge",
+        "path": "/attributes/inPiePropertiesByType",
+        "value": {
+            "*-goldencurrant": { "texture": "item/gelatin/goldencurrant", "partType": "Filling" },
+            "*-saskatoonberry": { "texture": "item/gelatin/saskatoonberry", "partType": "Filling" },
+            "*-bearberry": { "texture": "item/gelatin/bearberry", "partType": "Filling" }
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/food/gelatin.json",
+        "op": "move",
+        "path": "/attributes/inPiePropertiesByType/*",
+        "frompath": "/temp",
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/food/gelatin.json",
+        "op": "move",
+        "frompath": "/texturebyType/*",
+        "path": "/temp",
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/food/gelatin.json",
+        "op": "addmerge",
+        "path": "/texturebyType",
+        "value": {
+            "*-goldencurrant": { "base": "item/gelatin/goldencurrant" },
+            "*-saskatoonberry": { "base": "item/gelatin/saskatoonberry" },
+            "*-bearberry": { "base": "item/gelatin/bearberry" }
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/food/gelatin.json",
+        "op": "move",
+        "path": "/texturebyType/*",
+        "frompath": "/temp",
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    }
+]

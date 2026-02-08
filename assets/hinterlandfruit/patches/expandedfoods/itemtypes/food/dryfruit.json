@@ -1,0 +1,38 @@
+[
+    {
+        "file": "expandedfoods:itemtypes/food/dryfruit.json",
+        "op": "addmerge",
+        "path": "/variantgroups/-",
+        "value": {
+            "code": "fruit",
+            "loadFromProperties": "hinterlandfruit:block/fruit"
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/food/dryfruit.json",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "goldencurrant": { "base": "item/food/dryfruit/goldencurrant" }
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/food/dryfruit.json",
+        "op": "addmerge",
+        "path": "/guiTransformByType",
+        "value": {
+            "*-goldencurrant": {
+                "translation": { "x": 0, "y": 0, "z": 0 },
+                "rotation": { "x": 83, "y": -103, "z": -55 },
+                "origin": { "x": 0.53, "y": 0.05, "z": 0.53 },
+                "scale": 2.6
+            }
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    }
+]

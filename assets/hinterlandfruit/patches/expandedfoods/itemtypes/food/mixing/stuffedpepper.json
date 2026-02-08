@@ -1,0 +1,56 @@
+[
+    {
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+        "op": "addmerge",
+        "path": "texturesByType/*-bare-*",
+        "value": {
+            "goldencurrant": {
+                "base": "game:block/food/meal/group7-honey-fieldmushroom-pineapple-scrambledegg-bushmeat"
+            },
+            "saskatoonberry": {
+                "base": "game/block/food/meal/group7-honey-fieldmushroom-pineapple-scrambledegg-bushmeat"
+            },
+            "bearberry": {
+                "base": "game/block/food/meal/group7-honey-fieldmushroom-pineapple-scrambledegg-bushmeat"
+            }
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+        "op": "addmerge",
+        "path": "texturesByType/@*-(syruppartbaked|syrupcooked|syrupcharred)",
+        "value": {
+            "goldencurrant": {
+                "base": "game:block/food/meal/group7-honey-fieldmushroom-pineapple-scrambledegg-bushmeat"
+            },
+            "saskatoonberry": {
+                "base": "game:block/food/meal/group7-honey-fieldmushroom-pineapple-scrambledegg-bushmeat"
+            },
+            "bearberry": {
+                "base": "game/block/food/meal/group7-honey-fieldmushroom-pineapple-scrambledegg-bushmeat"
+            }
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+        "op": "addmerge",
+        "path": "texturesByType/*",
+        "value": {
+            "goldencurrant": {
+                "base": "game:block/food/meal/group7-honey-fieldmushroom-pineapple-scrambledegg-bushmeat"
+            },
+            "saskatoonberry": {
+                "base": "game:block/food/meal/group7-honey-fieldmushroom-pineapple-scrambledegg-bushmeat"
+            },
+            "bearberry": {
+                "base": "game/block/food/meal/group7-honey-fieldmushroom-pineapple-scrambledegg-bushmeat"
+            }
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    }
+]

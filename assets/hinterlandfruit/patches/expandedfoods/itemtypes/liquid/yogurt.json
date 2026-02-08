@@ -1,0 +1,13 @@
+[
+    {
+        "file": "expandedfoods:itemtypes/liquid/yogurt.json",
+        "op": "addeach",
+        "path": "/variantgroups/0/states/-",
+        "value": [
+            "goldencurrant",
+            "saskatoonberry"
+        ],
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    }
+]

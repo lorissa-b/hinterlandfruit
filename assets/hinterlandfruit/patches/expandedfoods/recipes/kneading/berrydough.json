@@ -1,0 +1,146 @@
+[
+    {
+        "file": "expandedfoods:recipes/kneading/berrydough.json",
+        "op": "addeach",
+        "path": "/0/ingredients/1/inputs/0/allowedVariants/-",
+        "value": ["goldencurrant", "saskatoonberry", "bearberry"],
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/kneading/berrydough.json",
+        "op": "addeach",
+        "path": "/0/ingredients/2/inputs/1/allowedVariants/-",
+        "value": ["goldencurrant", "saskatoonberry", "bearberry"],
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/kneading/berrydough.json",
+        "op": "addmerge",
+        "path": "/0/ingredients/2/inputs/-",
+        "value": {
+            "type": "item",
+            "code": "hinterlandfruit:fruit-*",
+            "quantity": 1
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/kneading/berrydough.json",
+        "op": "addeach",
+        "path": "/0/ingredients/3/inputs/1/allowedVariants/-",
+        "value": ["goldencurrant", "saskatoonberry", "bearberry"],
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/kneading/berrydough.json",
+        "op": "addmerge",
+        "path": "/0/ingredients/3/inputs/-",
+        "value": {
+            "type": "item",
+            "code": "hinterlandfruit:fruit-*",
+            "quantity": 1
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/kneading/berrydough.json",
+        "op": "addeach",
+        "path": "/1/ingredients/1/inputs/0/allowedVariants/-",
+        "value": ["goldencurrant", "saskatoonberry", "bearberry"],
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/kneading/berrydough.json",
+        "op": "addeach",
+        "path": "/1/ingredients/2/inputs/1/allowedVariants/-",
+        "value": ["goldencurrant"],
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/kneading/berrydough.json",
+        "op": "addmerge",
+        "path": "/1/ingredients/2/inputs/-",
+        "value": {
+            "type": "item",
+            "code": "hinterlandfruit:fruit-*",
+            "quantity": 1
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/kneading/berrydough.json",
+        "op": "addeach",
+        "path": "/2/ingredients/1/inputs/1/allowedVariants/-",
+        "value": ["goldencurrant", "saskatoonberry", "bearberry"],
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/kneading/berrydough.json",
+        "op": "addeach",
+        "path": "/3/ingredients/1/inputs/1/allowedVariants/-",
+        "value": ["goldencurrant", "saskatoonberry", "bearberry"],
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/kneading/berrydough.json",
+        "op": "addmerge",
+        "path": "/3/ingredients/1/inputs/-",
+        "value": {
+            "type": "item",
+            "code": "hinterlandfruit:fruit-*",
+            "quantity": 1
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/kneading/berrydough.json",
+        "op": "addeach",
+        "path": "/3/ingredients/2/inputs/1/allowedVariants/-",
+        "value": ["goldencurrant", "saskatoonberry", "bearberry"],
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/kneading/berrydough.json",
+        "op": "addmerge",
+        "path": "/3/ingredients/2/inputs/-",
+        "value": {
+            "type": "item",
+            "code": "hinterlandfruit:fruit-*",
+            "quantity": 1
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/kneading/berrydough.json",
+        "op": "addeach",
+        "path": "/4/ingredients/1/inputs/1/allowedVariants/-",
+        "value": ["goldencurrant", "saskatoonberry", "bearberry"],
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/kneading/berrydough.json",
+        "op": "addmerge",
+        "path": "/4/ingredients/1/inputs/-",
+        "value": {
+            "type": "item",
+            "code": "hinterlandfruit:fruit-*",
+            "quantity": 1
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    }
+]

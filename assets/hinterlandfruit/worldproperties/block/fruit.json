@@ -1,0 +1,14 @@
+{
+	"code": "fruit",
+	"variants": [
+		{
+			"code": "goldencurrant"
+		},
+		{
+			"code": "saskatoonberry"
+		},
+		{
+			"code": "bearberry"
+		}
+	]
+}

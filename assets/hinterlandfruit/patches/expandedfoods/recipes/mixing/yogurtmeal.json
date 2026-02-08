@@ -1,0 +1,330 @@
+[
+    {
+        "file": "expandedfoods:recipes/mixing/yogurtmeal.json",
+        "op": "addeach",
+        "path": "/ingredients/0/validStacks/-",
+        "value": [{
+            "type": "item",
+            "code": "expandedfoods:yogurt-goldencurrant",
+            "shapeElement": "bowl/yogurt/*",
+            "textureMapping": ["liquid", "yogurtgoldencurrant"]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:yogurt-saskatoonberry",
+            "shapeElement": "bowl/yogurt/*",
+            "textureMapping": ["liquid", "yogurtsaskatoonberry"]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:yogurt-bearberry",
+            "shapeElement": "bowl/yogurt/*",
+            "textureMapping": ["liquid", "yogurtbearberry"]
+        }],
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/yogurtmeal.json",
+        "op": "addeach",
+        "path": "/ingredients/1/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "hinterlandfruit:fruit-*",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dryfruit-goldencurrant",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dryfruit-saskatoonberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dryfruit-bearberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dehydratedfruit-goldencurrant",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dehydratedfruit-saskatoonberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dehydratedfruit-bearberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            }
+        ],
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/yogurtmeal.json",
+        "op": "addeach",
+        "path": "/ingredients/2/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "hinterlandfruit:fruit-*",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dryfruit-goldencurrant",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dryfruit-saskatoonberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dryfruit-bearberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dehydratedfruit-goldencurrant",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dehydratedfruit-saskatoonberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dehydratedfruit-bearberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            }
+        ],
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/yogurtmeal.json",
+        "op": "addeach",
+        "path": "/ingredients/3/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "hinterlandfruit:fruit-*",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dryfruit-goldencurrant",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dryfruit-saskatoonberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dryfruit-bearberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dehydratedfruit-goldencurrant",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dehydratedfruit-saskatoonberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dehydratedfruit-bearberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            }
+        ],
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/yogurtmeal.json",
+        "op": "addeach",
+        "path": "/ingredients/4/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "hinterlandfruit:fruit-*",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dryfruit-goldencurrant",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dryfruit-saskatoonberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dryfruit-bearberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dehydratedfruit-goldencurrant",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dehydratedfruit-saskatoonberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:dehydratedfruit-bearberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            }
+        ],
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/yogurtmeal.json",
+        "op": "addeach",
+        "path": "/ingredients/5/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "expandedfoods:candiedfruit-goldencurrant",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:candiedfruit-saskatoonberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:candiedfruit-bearberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            }
+        ],
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/yogurtmeal.json",
+        "op": "addeach",
+        "path": "/ingredients/6/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "expandedfoods:candiedfruit-goldencurrant",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:candiedfruit-saskatoonberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:candiedfruit-bearberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["fruit", "fruit-group1"]
+            }
+        ],
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/yogurtmeal.json",
+        "op": "addeach",
+        "path": "/ingredients/9/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "expandedfoods:fruitsyrupportion-goldencurrant",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["topping", "goldencurrantsyrup"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:fruitsyrupportion-saskatoonberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["topping", "saskatoonberrysyrup"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:fruitsyrupportion-bearberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["topping", "bearberrysyrup"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:gelatin-goldencurrant",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["topping", "gelatingoldencurrant"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:gelatin-saskatoonberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["topping", "gelatinsaskatoonberry"]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:gelatin-bearberry",
+                "shapeElement": "bowl/fruit 1/*",
+                "textureMapping": ["topping", "gelatinbearberry"]
+            }
+        ],
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    }
+]

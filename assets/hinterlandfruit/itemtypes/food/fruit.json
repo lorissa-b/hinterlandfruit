@@ -1,0 +1,102 @@
+{
+ 	"code": "fruit",
+ 	"maxstacksize": 64,
+ 	"variantgroups": [
+ 		{ 
+ 			"loadFromProperties": "hinterlandfruit:block/fruit" 
+ 		}
+ 	],
+ 	"materialDensityByType": {
+   		"*": 600
+  	},
+	"attributes": {
+		"foodTags": ["{fruit}", "fruit"],
+		"nutritionPropsWhenInMeal": {
+			"satietyByType":  {
+				"*-goldencurrant": 120,
+				"*-saskatoonberry": 120
+			},
+			"foodcategory": "Fruit" 
+		},
+		"inPiePropertiesByType": {
+			"*": { "texture": "block/food/pie/fill-{fruit}", "partType": "Filling" }
+		},
+		"juiceablePropertiesByType": {
+			"@*-goldencurrant": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "hinterlandfruit:juiceportion-goldencurrant", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "hinterlandfruit:pressedmash-goldencurrant", "stacksize": 1 }
+			},
+			"@*-saskatoonberry": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "hinterlandfruit:juiceportion-saskatoonberry", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "hinterlandfruit:pressedmash-saskatoonberry", "stacksize": 1 }
+			},
+			"@*-bearberry": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "hinterlandfruit:juiceportion-saskatoonberry", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "hinterlandfruit:pressedmash-saskatoonberry", "stacksize": 1 }
+			}
+		}
+	},
+  	"shapebytype": {
+    		"*": { "base": "item/food/fruit/{fruit}" }
+  	},
+  	"textureByType": {
+    		"*": { "base": "item/food/fruit/{fruit}" }
+  	},
+  	"creativeinventory": {
+    		"general": [ "*" ],
+    		"items": [ "*" ]
+ 	 },
+  	"nutritionPropsByType": {
+   		 "*-goldencurrant": {
+      			"satiety": 120,
+      			"foodcategory": "Fruit"
+   		 },
+		 "*-saskatoonberry": {
+			"satiety": 120,
+			"foodcategory": "Fruit"
+		 },
+		 "*-bearberry": {
+			"satiety": 120,
+			"foodcategory": "Fruit"
+		 }
+  	},
+  	"transitionablePropsByType": {
+        "*": [
+            {
+                "type": "Perish",
+                "freshHours": { "avg": 72 },
+                "transitionHours": { "avg": 12 },
+                "transitionedStack": {
+                    "type": "item",
+                    "code": "game:rot"
+                },
+                "transitionRatio": 0.25
+            }
+        ]
+  	},
+  	"guiTransformByType": {
+		"*-goldencurrant": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 83, "y": -103, "z": -55 },
+			"origin": { "x": 0.53, "y": 0.17, "z": 0.53 },
+			"scale": 2.6
+		}
+  	},
+  	"fpHandTransformByType": {
+		"*-goldencurrant": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 64, "y": 24, "z": -13 },
+			"origin": { "x": 0.3, "y": 0.2, "z": 0.3 }
+		}
+  	},
+  	"tpHandTransformByType": {
+        "*-goldencurrant":{
+            "translation": { "x": -1.69, "y": -1.4, "z": -1.1 },
+			"rotation": { "x": 98, "y": -44, "z": -46 },
+			"scale": 0.36
+        }
+	}
+}

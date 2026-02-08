@@ -1,0 +1,29 @@
+[
+    {
+        "file": "expandedfoods:itemtypes/food/mixing/fruitbar.json",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "goldencurrantF": {
+                "base": "expandedfoods:item/gelatin/goldencurrant"
+            },
+            "goldencurrantO": {
+                "base": "hinterlandfruit:item/food/grain/overlays/goldencurrant"
+            },
+            "saskatoonberryF": {
+                "base": "expandedfoods:item/gelatin/saskatoonberry"
+            },
+            "saskatoonberryO": {
+                "base": "hinterlandfruit:item/food/grain/overlays/saskatoonberry"
+            },
+            "bearberryF": {
+                "base": "expandedfoods:item/gelatin/bearberry"
+            },
+            "bearberryO": {
+                "base": "hinterlandfruit:item/food/grain/overlays/bearberry"
+            }
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    }
+]

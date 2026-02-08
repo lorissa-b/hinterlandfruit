@@ -1,0 +1,94 @@
+{
+    "item-fruit-goldencurrant": "Golden currant",
+
+    "item-pressedmash-goldencurrant-dry": "Dry golden currant mash",
+
+    "item-juiceportion-goldencurrant": "Golden currant juice",
+
+    "incontainer-item-juiceportion-goldencurrant": "Golden currant juice",
+
+    "item-spiritportion-goldencurrant": "Golden currant wine",
+
+    "incontainer-item-spiritportion-goldencurrant": "Golden currant wine",
+
+    "block-bigberrybush-goldencurrant-empty": "Golden currant bush",
+    "block-bigberrybush-goldencurrant-flowering": "Golden currant bush (Flowering)",
+    "block-bigberrybush-goldencurrant-ripe": "Golden currant bush (Ripe)",
+
+    "expandedfoods:item-candiedfruit-goldencurrant": "Candied golden currant",
+
+    "expandedfoods:item-dehydratedfruit-goldencurrant": "Dehydrated golden currant",
+
+    "expandedfoods:item-dryfruit-goldencurrant": "Dried golden currant",
+
+    "expandedfoods:item-gelatin-goldencurrant": "Golden currant gelatin",
+
+    "expandedfoods:item-fruitsyrupportion-goldencurrant": "Golden currant syrup portion",
+
+    "expandedfoods:item-strongwineportion-goldencurrant": "Strong golden currant wine portion",
+    "game:incontainer-item-strongwineportion-goldencurrant": "Strong golden currant wine",
+    
+    "expandedfoods:item-potentwineportion-goldencurrant": "Fine golden currant wine portion",
+    "expandedfoods:incontainer-item-potentwineportion-goldencurrant": "Fine golden currant wine",
+    "game:incontainer-item-potentwineportion-goldencurrant": "Fine golden currant wine",
+    "expandedfoods:recipeingredient-item-potentwineportion-goldencurrant-insturmentalcase": "fine golden currant wine",
+
+    "expandedfoods:item-strongspiritportion-goldencurrant": "Aged golden currant brandy portion",
+
+    "expandedfoods:item-potentspiritportion-goldencurrant": "Vintage golden currant brandy portion",
+    
+    "expandedfoods:incontainer-item-strongwineportion-goldencurrant": "Strong golden currant wine",
+    "expandedfoods:recipeingredient-item-strongwineportion-goldencurrant-insturmentalcase": "strong golden currant wine",
+    
+    "expandedfoods:incontainer-item-strongspiritportion-goldencurrant": "Aged golden currant brandy",
+    "game:incontainer-item-strongspiritportion-goldencurrant": "Aged golden currant brandy",
+
+    "expandedfoods:incontainer-item-potentspiritportion-goldencurrant": "Vintage golden currant brandy",
+    "game:incontainer-item-potentspiritportion-goldencurrant": "Vintage golden currant brandy",
+
+    "expandedfoods:recipeingredient-item-strongspiritportion-goldencurrant-insturmentalcase": "aged golden currant brandy",
+    "expandedfoods:recipeingredient-item-potentspiritportion-goldencurrant-insturmentalcase": "vintage golden currant brandy",
+
+    "game:recipeingredient-item-gelatin-goldencurrant": "golden currant gelatin",
+
+    "expandedfoods:item-yogurt-goldencurrant": "golden currant yogurt portion",
+    "expandedfoods:incontainer-item-yogurt-goldencurrant": "golden currant yogurt",
+    "game:incontainer-item-yogurt-goldencurrant": "golden currant yogurt",
+    "game:recipeingredient-item-yogurt-goldencurrant": "golden currant yogurt",
+    "expandedfoods:recipeingredient-item-yogurt-goldencurrant-insturmentalcase": "golden currant yogurt",
+
+    "pie-single-expandedfoods:dryfruit-goldencurrant-raw": "Dried golden currant pie (raw)",
+    "pie-single-expandedfoods:gelatin-goldencurrant-raw": "golden currant jelly pie (raw)",
+    "pie-single-expandedfoods:dryfruit-goldencurrant-partbaked": "Dried golden currant pie (part-baked)",
+    "pie-single-expandedfoods:gelatin-goldencurrant-partbaked": "golden currant jelly pie (part-baked)",
+    "pie-single-expandedfoods:dryfruit-goldencurrant-perfect": "Dried golden currant pie",
+    "pie-single-expandedfoods:gelatin-goldencurrant-perfect": "golden currant jelly pie",
+    "pie-single-expandedfoods:dryfruit-goldencurrant-charred": "Dried golden currant pie (charred)",
+    "pie-single-expandedfoods:gelatin-goldencurrant-charred": "golden currant jelly pie (charred)",
+    "game:recipeingredient-item-ciderportion-goldencurrant-insturmentalcase": "golden currant wine",
+    "game:recipeingredient-item-spiritportion-goldencurrant-insturmentalcase": "golden currant brandy",
+    "game:recipeingredient-item-dehydratedfruit-goldencurrant": "golden currant",
+    "game:recipeingredient-item-dehydratedfruit-goldencurrant-insturmentalcase": "golden currant",
+    "expandedfoods:recipeingredient-item-dehydratedfruit-goldencurrant": "golden currant",
+    "expandedfoods:recipeingredient-item-dehydratedfruit-goldencurrant-insturmentalcase": "golden currant",
+    "pie-single-expandedfoods:dehydratedfruit-goldencurrant-raw": "Dehydrated golden currant pie (raw)",
+    "pie-single-expandedfoods:dehydratedfruit-goldencurrant-partbaked": "Dehydrated golden currant pie (part-baked)",
+    "pie-single-expandedfoods:dehydratedfruit-goldencurrant-perfect": "Dehydrated golden currant pie",
+    "pie-single-expandedfoods:dehydratedfruit-goldencurrant-charred": "Dehydrated golden currant pie (charred)",
+    "game:recipeingredient-item-candiedfruit-goldencurrant": "candied golden currants",
+    "game:recipeingredient-item-dryfruit-goldencurrant": "golden currant",
+    "game:recipeingredient-item-dryfruit-goldencurrant-insturmentalcase": "golden currant",
+    "expandedfoods:recipeingredient-item-dryfruit-goldencurrant": "golden currant",
+    "expandedfoods:recipeingredient-item-dryfruit-goldencurrant-insturmentalcase": "golden currant",
+    "game:incontainer-item-fruitsyrupportion-goldenurrant" : "Golden currant syrup",
+    "game:recipeingredient-item-fruitsyrupportion-goldencurrant": "golden currant syrup",
+    "game:recipeingredient-item-fruitsyrupportion-goldencurrant-insturmentalcase": "golden currant syrup",
+    "expandedfoods:recipeingredient-item-fruitsyrupportion-goldencurrant": "golden currant syrup",
+    "expandedfoods:recipeingredient-item-fruitsyrupportion-goldencurrant-insturmentalcase": "golden currant syrup",
+    "game:meal-ingredient-stew-primary-fruitsyrupportion-goldencurrant": "golden currant syrup",
+    "game:meal-ingredient-stew-secondary-fruitsyrupportion-goldencurrant": "golden currant syrup",
+    "pie-single-expandedfoods:fruitsyrupportion-goldencurrant-raw": "golden currant syrup pie (raw)",
+    "pie-single-expandedfoods:fruitsyrupportion-goldencurrant-partbaked": "golden currant syrup pie (part-baked)",
+    "pie-single-expandedfoods:fruitsyrupportion-goldencurrant-perfect": "golden currant syrup pie",
+    "pie-single-expandedfoods:fruitsyrupportion-goldencurrant-charred": "golden currant syrup pie (charred)"
+}

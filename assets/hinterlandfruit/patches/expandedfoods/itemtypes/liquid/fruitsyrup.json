@@ -1,0 +1,83 @@
+[
+    {
+        "file": "expandedfoods:itemtypes/liquid/fruitsyrup.json",
+        "op": "addmerge",
+        "path": "/variantgroups/-",
+        "value": {
+            "code": "type",
+            "loadFromProperties": "hinterlandfruit:block/fruit"
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/fruitsyrup.json",
+        "op": "move",
+        "frompath": "/attributes/inPiePropertiesByType/*",
+        "path": "/temp",
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/fruitsyrup.json",
+        "op": "addmerge",
+        "path": "/attributes/inPiePropertiesByType",
+        "value": {
+            "*-goldencurrant": {
+                "texture": "block/food/pie/fill-goldencurrant",
+                "partType": "Filling"
+            },
+            "*-saskatoonberry": {
+                "texture": "block/food/pie/fill-saskatoonberry",
+                "partType": "Filling"
+            },
+            "*-bearberry": {
+                "texture": "block/food/pie/fill-bearberry",
+                "partType": "Filling"
+            }
+        }
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/fruitsyrup.json",
+        "op": "move",
+        "path": "/attributes/inPiePropertiesByType/*",
+        "frompath": "/temp",
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/fruitsyrup.json",
+        "op": "move",
+        "frompath": "/texturebytype/*",
+        "path": "/temp",
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/fruitsyrup.json",
+        "op": "addmerge",
+        "path": "/texturebytype",
+        "value": {
+            "*-goldencurrant": {
+                "base": "block/food/pie/fill-goldencurrant",
+                "overlays": ["game:item/liquid/syrup"]
+            },
+            "*-saskatoonberry": {
+                "base": "block/food/pie/fill-saskatoonberry",
+                "overlays": ["game:item/liquid/syrup"]
+            },
+            "*-bearberry": {
+                "base": "block/food/pie/fill-bearberry",
+                "overlays": ["game:item/liquid/syrup"]
+            }
+        }
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/fruitsyrup.json",
+        "op": "move",
+        "path": "/texturebytype/*",
+        "frompath": "/temp",
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    }
+]

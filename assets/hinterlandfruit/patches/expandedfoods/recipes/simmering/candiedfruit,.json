@@ -1,0 +1,23 @@
+[
+    {
+        "file": "expandedfoods:recipes/simmering/candiedfruit.json",
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+            "Ingredients": [
+                { "type": "item", "code": "expandedfoods:fruitsyrupportion-*", "name": "fruit", "skipVariants": ["pinkapple", "yellowapple", "redapple"], "quantity": 10 },
+                { "type": "item", "code": "hinterlandfruit:fruit-*", "name": "fruit", "quantity": 1 }
+            ],
+            "Simmering": {
+                "meltingPoint": 200,
+                "meltingDuration": 10,
+                "smeltedRatio": 1,
+                "smeltingType": "bake",
+                "smeltedStack": { "type": "item", "code": "expandedfoods:candiedfruit-{fruit}", "quantity": 1 },
+                "requiresContainer": false
+            }
+        },
+        "side": "Server",
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    }
+]
