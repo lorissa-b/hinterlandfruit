@@ -1,7 +1,11 @@
 {
     "item-fruit-goldencurrant": "Golden currant",
+    "item-fruit-bearberry": "Bearberry",
+	"item-fruit-saskatoonberry": "Saskatoonberry",
 
     "item-pressedmash-goldencurrant-dry": "Dry golden currant mash",
+    "item-pressedmash-bearberry-dry": "Dry bearberry mash",
+    "item-pressedmash-saskatoonberry-dry": "Dry saskatoonberry mash",
 
     "item-juiceportion-goldencurrant": "Golden currant juice",
 
@@ -14,6 +18,13 @@
     "block-bigberrybush-goldencurrant-empty": "Golden currant bush",
     "block-bigberrybush-goldencurrant-flowering": "Golden currant bush (Flowering)",
     "block-bigberrybush-goldencurrant-ripe": "Golden currant bush (Ripe)",
+
+    "block-fruitingbush-goldencurrant": "Goldden currant bush",
+	"block-fruitingbush-bearberry": "Bearberry bush",
+	"block-fruitingbush-saskatoonberry": "Saskatoonberry bush",
+	"block-fruitingbushcutting-bearberry-free": "Bearberry cutting",
+    "block-fruitingbushcutting-goldencurrant-free": "Golden currant cutting",
+	"block-fruitingbushcutting-saskatoonberry-free": "Saskatoonberry cutting",
 
     "expandedfoods:item-candiedfruit-goldencurrant": "Candied golden currant",
 
